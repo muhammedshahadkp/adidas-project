@@ -1,0 +1,148 @@
+@media screen and (max-width:576px){   
+    .header{
+        .top{
+            >i{
+                position: absolute;
+                right: 1em;
+            }
+        }
+        .menu{
+            order: -1;
+        }
+        .up{
+            a{
+                text-decoration: underline;
+                display: block;
+                i{
+                    display: none;
+                }
+            }
+        }
+    }
+    .arrivals{
+        .arrivals-pic{
+            height: 24rem;
+        }
+    }
+}
+
+@media screen and (min-width:577px){
+    .header{
+        .top{
+            >i{
+                position: absolute;
+                right: 2em;
+            }
+        }
+        .menu{
+            order: -1;
+        }
+        .up{
+            a{
+                text-decoration: underline;
+                display: block;
+                i{
+                    display: none;
+                }
+            }
+        }
+    }
+    .sale{
+        .box-con{
+            grid-template-columns: repeat(2,1fr);
+            gap: 1rem;
+        }
+       } 
+}
+@media screen and (min-width:768px){
+    .header{
+        .top{
+            >i{
+                position: static;
+            }
+        }
+    }
+    .arrivals{
+        .arrivals-pic{
+            height: 30rem;
+        }
+    }
+    .stories{
+        .story_pic{
+            height: 22rem;
+        }
+    }
+}
+@media screen and (min-width:992px){
+   .header{
+        .menu{
+        order: 0;
+            }
+        .up{
+            a{
+                display: inline-block;
+                color: #000 !important;
+                border: 2px solid #000;
+                background-color: #ffff;
+                text-decoration: none;
+                i{
+                    display: inline-block;
+                }
+            }
+        }
+   }
+   .sale{
+     .box-con{
+        grid-template-columns: repeat(4,1fr);
+        column-gap:1rem !important;
+        row-gap: 0 !important;
+     }
+     .box{
+        figure{
+            height: 12rem;
+        }
+     }
+   }
+   .arrivals{
+    .arrivals_sec2{
+        >div{
+            width: 24%;
+        }
+       }
+       .arrivals-pic{
+        height: 20rem;
+       }
+   }
+   .stories{
+    .stories_sec1{
+        >div{
+            width: 24%;
+        }
+    }
+    .story_pic{
+        height: 10rem;
+    }
+   }
+
+   .footer{
+     .link_container{
+        background-color: rgb(243, 241, 241);
+        color: #000;
+     }
+   }
+}
+@media screen and (min-width:1200px){
+    .arrivals{
+        .arrivals-pic{
+            height: 24rem;
+        }
+    }
+    .stories{
+        .story_pic{
+            height: 12rem;
+        }
+    }
+}
+@media screen and (min-width:1400px){
+
+}
